@@ -1,0 +1,1482 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body{
+    	/* font-family:'Poppins',sans-serif;*/
+	font-family:'Roboto',sans-serif;
+    font-size: 14px;
+}
+
+.login-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('assets/login-bg.jpg');
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    /* margin-top: 1.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo img{
+    height: 90px;
+    width: 100px;
+}
+
+
+.logo-setMin{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.logo-setMin img{
+    height: 100px;
+    width: 70px;
+}
+
+
+.loginForm .login-heading{
+    text-align: center;
+}
+
+.login-heading{
+    padding: 10px 10px;
+}
+
+.login-heading h1{
+    font-family:'Poppins',sans-serif;
+        font-style: normal;
+    font-weight: 600;
+    color: #271835;
+}
+
+.login-heading h3{
+    margin-top: 10px;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    color: #5C5F65;
+}
+
+.form-group {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: calc(33%);
+    left: 1.25rem;
+    font-size:18px
+}
+
+.eye {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+}
+  
+#show {
+    display: none;
+}
+  
+#cnf-show {
+    display: none;
+}
+
+.form-group label,
+.form-group .form-control{
+  left: 0.5rem;
+  padding-left: 3.5rem;
+}
+
+.loginForm form .form-group label#email{
+    
+    position: absolute;
+    margin-top: -12px;
+    padding: 1px 1px;
+    background-color: #FFFFFF;
+    height: 20px;
+    width: 60px;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #373F3B;
+    left: 50px;
+    text-align: center;
+}
+.loginForm form{
+    /* margin-top: 1rem; */
+    padding: 17px 10px;
+}
+.loginForm form .form-group input{
+    border-radius: 50px;
+    height: 50px;
+}
+
+.loginForm form .form-group input[type= "email"]{
+    border: 1px solid #3A3739;
+}
+
+.loginForm form .form-group input[type= "password"]{
+    border: 0px solid;
+    background: #F1EBF7;
+}
+
+.loginForm form .form-group input[type= "text"]{
+    border: 1px solid #3A3739;
+}
+
+.login-btn{
+    border: 0px;
+    margin-top: 1rem;
+    height: 50px;
+    width: 100%;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #7636B0;
+    border-radius: 50px;
+    color: #F4FAFF;
+}
+
+.login-links{
+    margin-top: 2rem;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.login-links a{
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    color:#9192B0;
+    opacity: .5;
+    transition: opacity 250ms ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    opacity: 1;
+}
+
+.login-links a p{
+    color:#FFFFFF;
+}
+
+
+/*set-ner mpin*/
+.Mpin
+{
+    margin-top: 2.5rem;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Mpin input
+{
+    width: 60px;
+    font-size: 24px;
+    margin: 2px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: 2px solid #DBDBDB;
+    border-radius: 50px;
+    text-align: center;
+    color: #271835;
+    transition: all .3s ease;
+}
+
+.Mpin input:focus
+{
+    border: 2px solid #a527ff;
+    box-shadow: 0 0 4px 4px #a527ff61;
+}
+
+/*Forgot-password*/
+
+.logo-fogotpassword{
+    margin-top: 3rem;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.logo-fogotpassword img{
+    height: 100px;
+    width: 120px;
+}
+
+.forgotPassword-form{
+    margin-top: 2.5rem;
+}
+
+.forgotPassword-links{
+    margin-top: 1rem;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.forgotPassword-links a{
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    color:#9192B0;
+    opacity: .5;
+    transition: opacity 250ms ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    opacity: 1;
+}
+
+.forgotPassword-links a p{
+    color:#FFFFFF;
+}
+
+
+
+/* splashscreen
+ */
+
+ *{
+    transition: 0.3s;
+
+ }
+ img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+ }
+ .splashscreen{
+    height: 100vh;
+    background: url('assets/splashscreen.jpg');
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-size: cover;
+    background-position: left center;
+
+ }
+
+ .splashscreen .logo {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 100vh;
+}
+
+.splashscreen .logo img {
+    height: auto;
+    width: 177px;
+}
+
+
+.inner_logo {
+    width: 80px;
+    margin: 0px auto;
+}
+
+.header_content_top {
+    padding: 10px 15px;
+    position: relative;
+}
+.manucontent_view {
+    /* height: 100vh;
+    background: url(assets/menubg.png);
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-size: 100% 100%;
+    background-position: left center;
+    position: fixed;
+    width: 300px;
+    left: 0px;
+    top: 0;
+    z-index: 10; */
+    height: 100vh;
+    padding: 0px;
+    position: fixed;
+    width: 300px;
+    left: 0px;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    transform: translate(-100%, 0px);
+}
+.manucontent_view.activesidebar {
+    transform: translate(0px, 0px);
+}
+.manucontent_view:after {
+    position: fixed;
+    width: 600px;
+    content: "";
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    background: #7636b0;
+    border-radius: 74%;
+    transform: translate(-50%, 10px);
+    box-shadow: 0px 53px 45px #0000004f;
+    z-index: -1;
+}
+.closemenu {
+    position: absolute;
+    right: 62%;
+    top: 0px;
+    width: 60px;
+}
+.manucontent {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+}
+.menuopt {
+    /* background: #EFEEFE;
+    padding: 8px 7px; */
+    width: 47px;
+    border-radius: 50%;
+    height: 47px;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    cursor: pointer;
+}
+.manucontent ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.manucontent ul li {
+    padding: 0px;
+    margin: 10px 0;
+
+}
+
+.manucontent ul li a {
+    padding: 2px 30px;
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #C4B8CF;
+    display: block;
+    border-left: 4px solid transparent;
+
+}
+
+.manucontent ul li:hover a {
+   color: #fff;
+   border-left: 4px solid #fff;
+}
+.manucontent ul li.activeopt a{
+    color: #fff;
+    border-left: 4px solid #fff;
+ 
+}
+
+
+
+li.nav__link ul li a {
+    border: 4px solid transparent !important;
+    color: #C4B8CF !important;
+    padding: 0px 0px 0px 45px !important;
+    font-size: 18px !important;
+}
+li.nav__link ul li a:hover {
+    color: #fff !important;
+}
+li.nav__link ul {
+    display: none;
+}
+li.nav__link:hover ul{
+    display: block;
+}
+
+.home-container,.def-container{
+    height: 100vh;
+    background: url('assets/homebg.jpg');
+    background-repeat: no-repeat;
+    padding: 0px ;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.serviceinfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin:  37px 1.5% ;
+
+}
+.serviceitem {
+    background: #fff;
+    flex: 0 47%;
+    margin: 0px 1.5% 3%;
+    border-radius: 17px;
+    padding: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 12px #00000029;
+}
+
+.serv_icon {
+    position: relative;
+    width: 67px;
+    height: 72px;
+    margin: 15px auto;
+}
+.serv_icon img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.serviceitem h2 {
+    font-size: 18px;
+    color: #3a2253;
+    font-weight: 700;
+}
+.serviceitem p {
+    color: #3a2253;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.serviceitem:hover {
+    background: #7636B0;
+}
+.serviceitem:hover h2,.serviceitem:hover p  {
+    color: #fff;
+
+}
+.serviceitem .hover_icon{
+    opacity:0;
+}
+.serviceitem:hover .def_icon{
+    opacity:0;
+}
+.serviceitem:hover .hover_icon{
+    opacity:1;
+}
+/* .serviceitem:hover svg path {
+    fill: red;
+    stroke: #3a2253;
+  } 
+  svg {
+    width: 70px;
+    height: 70px;
+  }
+  svg:hover {
+    fill: red;
+    stroke: #3a2253;
+
+  } */
+  .logout_opt {
+    position: absolute;
+    bottom: 50px;
+    left: 34px;
+}
+  .logout_opt svg {
+    width: 70px;
+    height: 70px;
+  }
+  .logout_opt a:hover svg path {
+    fill: #fff;
+
+  }
+
+  .logout_opt a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #C4B8CF;
+}
+
+
+.logout_opt svg {
+    width: 30px;
+    margin-right: 9px;
+}
+.logout_opt a:hover {
+    color: #fff;
+}
+
+.def_maincontent{
+
+}
+.table_contentopt table img {
+    width: 20px;
+}
+.playcont table {
+    text-align: center;
+}
+.def_maincontent tr:nth-child(odd) {
+    background-color: #fff;
+}  
+.def_maincontent tr:nth-child(even) {
+    background-color: #F5F3F6;
+}  
+
+.def_maincontent .table .thead-dark th {
+    color: #fff;
+    background-color: #2A173C !important;
+}
+.def_maincontent {
+    padding: 20px 15px;
+}
+
+.table-bordered td:first-child, .table-bordered th:first-child {
+    text-align: left;
+}
+
+.def_maincontent .table .thead-dark th:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+.def_maincontent .table .thead-dark th:last-child {
+    border-radius: 00px 10px 0px 0px;
+}
+.table-bordered {
+    border: 0px;
+}
+.def_maincontent .table .thead-dark th {
+    font-size: 14px;
+    border: 0px;
+    border-left: 1px solid rgb(78 78 78);
+}
+.def_maincontent .table .thead-dark  th:first-child {
+  
+    border-left: 0px;
+}
+
+
+/* tfoot.t-footer tr th {
+    background: #3A2252;
+    color: #fff;
+} */
+tfoot.t-footer tr th {
+    background: #5A3083;
+    color: #fff;
+    border: 1px solid #484848;
+}
+
+.def_shadow {
+    box-shadow: 0px 0px 33px #0000004a;
+    border-radius: 10px;
+}
+.defbtn_opt {
+    padding: 15px 15px 25px;
+    text-align: center;
+}
+.def_btn{
+    border: 0px;
+    padding: 10px 30px;
+    width: auto;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #7636B0;
+    border-radius: 50px;
+    color: #F4FAFF;
+    margin: 0px 5px;
+}
+.def_btn:hover{
+    background-color: #e6e6e6;
+    color: #7636B0
+}
+.des_btn{
+    background-color: #e6e6e6;
+    color: #7636B0;
+
+}
+ table {
+    margin: 0px !important;
+}
+
+.defbtn_opt {
+    padding: 25px 15px 25px;
+    text-align: center;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+@media(min-width:768px){
+    .serviceitem {
+        flex: 0 30%
+    }
+    
+}
+
+/* edit-profile */
+
+.edit-profile-container{
+    height: 100vh;
+    background: url('assets/edit-Profile.jpg');
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-upload{
+    top:30px;
+    width: 125px;
+    position: relative;
+    margin: auto;
+}
+
+.img-upload img{
+    width: 135px;
+    height: 135px;
+    border-radius: 25%;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 4px 61px rgba(0, 0, 0, 0.25);
+}
+
+.img-upload .round{
+    position: absolute;
+    background-color: #FFFFFF;
+    bottom: 0;
+    right: 0;
+    width: 38px;
+    height: 38px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-upload .round input[type="file"]{
+
+    position: absolute;
+    transform: scale(4);
+    opacity: 0;
+}
+
+input[tupe="file"]::-webkit-file-upload-button{
+    cursor: pointer;
+}
+
+.user-details{
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 2.8rem;
+}
+
+.user-details h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 68px;
+    color: #322D37;
+
+}
+
+.user-details p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #5F616B;
+}
+
+.edit-field{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.25rem;
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #B8B8B8;
+}
+
+.edit-user-form form .form-group input{
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+    border-bottom: 2px solid #B6B7B9;
+    height: 50px;
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #3D3D3D;
+}
+
+/*change password*/
+
+.change-password-container{
+    height: 100vh;
+    padding: 100px 25px;
+}
+
+.loginForm form .form-group label#changePassword{
+    
+    position: absolute;
+    margin-top: -12px;
+    padding: 1px 1px;
+    background-color: #FFFFFF;
+    height: 20px;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #373F3B;
+    left: 50px;
+    text-align: center;
+}
+
+.change-password-card{
+    
+    background: #FFFFFF;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.25);
+}
+
+.changePasswordHeading{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.close-card{
+    display: flex;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.close-card button{
+    border-radius: 50px;
+    border: 0px;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.changePasswordHeading h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A165A;
+}
+
+.changePasswordHeading p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #5C5F65;
+}
+
+/*delete account heading*/
+
+.deleteAccountHeading{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+.deleteAccountHeading h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A165A;
+}
+
+
+.deleteAccountHeading p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5C5F65;
+}
+
+.delete-account-logo{
+    width: 70px;
+    height: 86px;
+    margin: auto;
+}
+
+/*support*/
+
+.loginForm form .form-group label#name{
+    
+    position: absolute;
+    margin-top: -12px;
+    padding: 1px 1px;
+    background-color: #FFFFFF;
+    height: 20px;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #373F3B;
+    left: 50px;
+    text-align: center;
+}
+
+.loginForm form .form-group textarea{
+    padding: 1.5rem !important;
+    left: 0.5rem !important;
+    border: 1px solid;
+    border-radius: 35px !important;
+    box-shadow:none !important;
+}
+
+/*Payment method*/
+
+.payment-card{
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 80%;
+    margin: auto;
+    padding: 25px 25px;
+}
+
+.payment-heading{
+    text-align: center;
+}
+
+.payment-heading h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #271835;
+}
+
+.payment-heading h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #7636B0;
+}
+
+.payment-heading p{
+
+    margin-top: 2rem;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A165A;
+}
+
+.payment-option{
+    padding: 20px 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+.card-mode{
+    padding: 5px 5px;
+    background:none;
+    border: 1px solid #E5E5E5;
+    color: #3A165A;
+    border-radius: 10px;
+    transition: all ease;
+    opacity: 0.6;
+}
+
+
+
+.paypale{
+    padding: 16px 15px;
+    background:none;
+    border: 1px solid #E5E5E5;
+    color: #3A165A;
+    border-radius: 10px;
+    transition: all  ease;
+    opacity: 0.6;
+}
+
+.activate{
+    opacity: 1;
+    background: #F5F3F6;
+    border: 2px solid #a527ff;
+}
+
+
+.cancel-btn{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #d3c9dd;
+    color: #7636B0;
+    opacity: 1;
+    font-style: normal;
+    margin-top: 1rem;
+    align-self: center;
+    border-radius: 50px;
+    height: 48px;
+    
+}
+.card-details form .form-group label{
+    
+    position: absolute;
+    margin-top: -14px;
+    padding: 1px 1px;
+    background: #FFFFFF;
+    height: 18px;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #373F3B;
+    left: 50px;
+    text-align: center;
+    outline: none;
+}
+
+.loginForm form .form-group input{
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #282828;
+    background: #F1EBF7;
+}
+
+.loginForm form .form-group input:hover{
+    background: #FFFFFF !important;
+}
+
+.card-details form .form-group .col input#exp-date{
+    font-size: 8px !important;
+}
+
+.card-details form .form-group .col input#cvv{
+    font-size: 14px !important;
+}   
+
+.card-details .form-group .form-control{
+    left: 0.5rem;
+    padding-left: 1.8rem;
+}
+
+.card-details .form-group .form-control#exp-date{
+    left: 0.5rem;
+    padding-left: 1rem;
+}
+
+.card-details .form-group .form-control#cvv{
+    left: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.button-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+/* .payment-details form input{
+    width: 100%;
+} */
+
+.payment-details form{
+    margin-top: 2rem;
+    padding: 10px 10px;
+}
+
+.payment-details form .row{
+    margin: auto;
+    padding: 5px;
+}
+
+.pay-content{
+    width: 100%;
+    display: flex;
+}
+
+.pay-content label{
+    width: 100px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #514E4E;
+}
+
+.pay-content input{
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+}
+
+.pay-content .form-control {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.form-group #exp-date{
+    width: 72px !important;
+    height: 40px !important;
+    text-align: center!important;
+}
+
+.form-group #cvv{
+    width: 60px !important;
+    height: 40px !important;
+    text-align: center!important;
+}
+
+.exp-section{
+    margin-left: 1px!important;
+    position: relative!important;
+    display: flex!important;
+    justify-content: center!important;
+    flex-direction: row!important;
+    align-items: center!important;
+    width: 100%!important;
+    gap: 12px;
+}
+
+
+/*Back button*/
+
+.btn-back{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #8D9298;
+    height: 20px;
+}
+
+.btn-back a{
+    color: #8D9298;
+}
+
+.btn-back p{
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.btn-back i{
+    font-size: 28px;
+}
+
+/*Terms and conditons*/
+
+.terms-conditons-container{
+    height: 100%;
+    background: url('assets/TermsConditions.jpg');
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.terms{
+    text-align: center;
+}
+
+.terms h1 {
+    margin-top: 3rem;
+    font-size: 62px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #271835;
+}
+
+.terms h2{
+    margin-top: 1rem;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24px;
+    color: #121212;
+}
+
+
+.terms p{
+    margin-top: .5rem;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #5C6368;
+}
+
+.btn-agree{
+    position: absolute;
+    padding: 0px 20px 10px 20px;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+    height: 90px;
+    box-shadow: -4px 26px 188px rgba(29, 21, 56, 0.52);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.btn-agree button{
+    margin-top: 0.8rem !important;
+    height: 44px !important;
+}
+
+.gameHeading h2{
+    margin-top: 4px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #271835;
+}
+
+.gameHeading p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #121212;
+}
+
+.serviceitem .serviceopt .serv_icon #prf-img{
+    margin-left: 6px;
+} 
+
+.serviceitem .serviceopt .serv_icon #ply-img{
+    margin-left: -4px;
+}
+
+.terms video{
+    width: 100%; 
+    height: 260px;
+    box-shadow: 0px 20px 25px #0000004f;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background: #7636b0;
+    object-fit: fill;
+}
+
+/*Banner*/
+
+.bannerCarouser{
+  margin-top: 2rem;
+  height: 115px; 
+  position: relative;
+
+}
+
+.banner{
+    height: 115px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 8px;
+    background-color: #000000;
+    object-fit: cover;
+}
+
+.banner img{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 115px;
+}
+
+.banner p{
+    position: relative;
+}
+
+.carouselContainer{
+ height: 100%;
+ position: relative;
+ overflow: hidden;
+ border-radius: 5px;  
+}
+
+.carouselTrack{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    transition: transform 500ms ease-in;
+}
+
+.carouselSlide{
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+.banner #banner-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px !important;
+}
+
+.banner #banner-content{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0px !important;
+}
+
+.banner-nav{
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+}
+
+.bannerIndicator{
+    border: 0;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    background: rgb(0 , 0 , 0, .3);
+}
+
+.bannerIndicator.current-slide{
+    background: rgba(255, 255, 255, 0.75);
+}
+
+
+/* Wallet section */
+
+.wallet-heading{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.wallet-heading h4{
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #271835;
+}
+
+.wallet-heading h3{
+    margin-top: 1rem;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #7636B0;
+}
+
+
+.wallet-note{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    background-color:#ececec;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.wallet-note #noteContent{
+    margin-top: 2px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    color: #271835;
+    text-align: left;
+}
+
+.wallet-note #wordNote{
+    font-size: 16px;
+    color: #5A3083 !important;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700px;
+}
+
+.wallet-icon {
+    position: absolute;
+    top: calc(25%);
+    left: 1.25rem;
+    font-size:22px;
+    color: #7636b0;
+}
+
+.walletInput{
+    outline: none !important;
+    box-shadow:none !important;
+    height: 45px !important;
+    border: #9568be 1px solid !important;
+}
+
+
+.wallet-btn{
+    border: 0px;
+    margin-top: .5rem;
+    height: 45px;
+    width: 100%;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #7636B0;
+    border-radius: 50px;
+    color: #F4FAFF;
+}
+
+
+/* result section */
+
+.result-logo{
+    width: 180px;
+    height: 100px;
+    margin: auto;
+}
+
+
+.resultHeading{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.resultHeading h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #7636B0;
+}
+
+
+.resultHeading p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #271835;
+}
+
+.resultDate{
+    width: 100%;
+    height: 40px;
+    background: #F5F3F7;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #E5E5E6;
+    border-radius: 5px;
+}
+
+.resultDate p{
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #514E4E;
+}
+
+.submitResult{
+    display: flex;
+    justify-content: center;
+}
+
+.result-btn{
+    border: 0px;
+    margin-top: 1rem;
+    height: 40px;
+    width: 50%;
+	font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    background: #F5F3F7;
+    border-radius: 50px;
+    color: #7636B0;
+    border: 1px solid #E5E5E6;
+}
+
+.result-btn:hover{
+    background-color: #7636B0;
+    color: #F4FAFF;
+    opacity: 1;
+}
+

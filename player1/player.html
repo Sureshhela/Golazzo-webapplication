@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../main.css">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="def-container">
+      <div class="header_content_top">
+        <div class="menuopt" onclick="sidebarFunction(this)">
+          <img src="../assets/menuicon.png" alt="">
+        </div>
+          <div class="inner_logo">
+              <a href=""><img src="../assets/logo.png" alt="Golazzo"></a> 
+          </div>
+
+          <div class="manucontent_view" id="menuslider">
+
+            <div class="closemenu" onclick="closeFunction(this)">
+              <img src="../assets/closeicon.png" alt="">
+            </div>
+            <div class="manucontent">
+              <ul>
+                <li class="nav__link active"><a href="#">Play</a> </li>
+                <li  class="nav__link active"><a href="#">Profile</a> </li>
+                <li class="nav__link active"><a href="#">Support</a> </li>
+                <li class="nav__link active"><a href="#">Terms & Conditions</a> </li>
+                <li class="nav__link active" ><a href="#" class="submenu" >Setting <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a> 
+                  <ul>
+                    <li><a href="#">Change Password</a> </li>
+                    <li><a href="#">Delete Account</a> </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="logout_opt">
+               <a href="#"> 
+                <svg width="75" height="72" viewBox="0 0 75 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M72.555 38.3154H25.2718C23.9218 38.3154 22.8262 37.2197 22.8262 35.8697C22.8262 34.5197 23.9218 33.4241 25.2718 33.4241H72.555C73.905 33.4241 75.0007 34.5197 75.0007 35.8697C75.0007 37.2197 73.905 38.3154 72.555 38.3154Z" fill="#C1B7CA"/>
+                  <path d="M38.3165 51.3588C37.6902 51.3588 37.0644 51.1212 36.588 50.6417L23.5446 37.5984C22.5893 36.6424 22.5893 35.0936 23.5446 34.1383L36.588 21.0949C37.5433 20.1396 39.0921 20.1396 40.0481 21.0949C41.0034 22.0503 41.0034 23.5991 40.0481 24.5544L28.7327 35.8698L40.0481 47.1852C41.0034 48.1405 41.0034 49.6893 40.0481 50.6447C39.5686 51.1212 38.9423 51.3588 38.3165 51.3588Z" fill="#C1B7CA"/>
+                  <path d="M35.8699 71.7398C16.0926 71.7398 0 55.6471 0 35.8699C0 16.0926 16.0926 0 35.8699 0C50.7099 0 63.8123 8.92821 69.2547 22.7483C69.7503 24.0034 69.1305 25.4221 67.8755 25.9207C66.6198 26.4103 65.2011 25.8001 64.7026 24.5384C60.0035 12.6033 48.6851 4.89132 35.8699 4.89132C18.7891 4.89132 4.89132 18.7897 4.89132 35.8699C4.89132 52.9501 18.7891 66.8485 35.8699 66.8485C48.6851 66.8485 60.0035 59.1365 64.7026 47.205C65.1981 45.9427 66.6168 45.3331 67.8755 45.8221C69.1305 46.3177 69.7503 47.7393 69.2547 48.995C63.8123 62.8116 50.7099 71.7398 35.8699 71.7398Z" fill="#C1B7CA"/>
+                  </svg>
+                  
+                Log Out</a>    
+            </div>
+
+            
+          </div>
+      </div>
+      <div class="gameHeading">
+        <h2>LaLiga</h2>
+        <p>ends on 11/11/2022</p>
+      </div>
+      
+      <div class="def_maincontent">
+        <div class="table_contentopt def_shadow playcont">
+          <table class="table table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Player</th>
+                <th scope="col">0 Goal</th>
+                <th scope="col">1 Goal</th>
+                <th scope="col">2+ Goal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Footballer 1</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>Footballer 2</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>Footballer 3</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+              </tr>
+              <tr>
+                <td>Footballer 4</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>Footballer 5</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>Footballer 6</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+              </tr>
+              <tr>
+                <td>Footballer 7</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>Footballer 8</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>Footballer 9</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+              </tr>
+              <tr>
+                <td>Footballer 10</th>
+                <td>&nbsp</td>
+                <td><span><img src="../assets/favourites.png" alt=""></span></td>
+                <td>&nbsp</td>
+              </tr>
+              
+            </tbody>
+            <tfoot class="t-footer">
+              <tr>
+                <th scope="col">Total Line</th>
+                <th scope="col">&nbsp</th>
+                <th scope="col">&nbsp</th>
+                <th scope="col">8</th>
+              </tr>
+              <tr>
+                <th scope="col">Stake/<span>line</span></th>
+                <th scope="col">&nbsp</th>
+                <th scope="col">&nbsp</th>
+                <th scope="col">€2.00</th>
+              </tr>
+              <tr>
+                <th scope="col">Total payable </th>
+                <th scope="col">&nbsp</th>
+                <th scope="col">&nbsp</th>
+                <th scope="col">€16.00</th>
+              </tr>
+            </tfoot>
+          </table>
+          <div class="defbtn_opt">
+              <a href="#" class="btn def_btn des_btn">Clear Data</a>
+              <a href="#" class="btn def_btn">Play Now</a>
+
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="../main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  
+  
+  </body>
+</html>
